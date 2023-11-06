@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #191919;
+}
+
+header{
+    background-color: #ffffff;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > nav >  a{
+    color: #191919;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav{
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://merida.anahuac.mx/hs-fs/hubfs/apreu/Blog/2019%20Blog%20APREU/APREU%20Blog%20-%20Abril%2019/dribbble-shot_6.gif?width=1600&name=dribbble-shot_6.gif);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 8rem;
+    width: 25rem;
+}
+
+section > h1{
+    color: #191919;
+}
